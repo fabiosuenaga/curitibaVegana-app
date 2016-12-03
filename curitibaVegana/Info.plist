@@ -36,5 +36,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Sua localização é utilizada para traçar a rota, até o estabelecimento desejado.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your message goes here</string>
 </dict>
 </plist>

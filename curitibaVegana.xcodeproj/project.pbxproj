@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F14C862D1CCDD7AE0002B079 /* Vegan.json in Resources */ = {isa = PBXBuildFile; fileRef = F14C862C1CCDD7AE0002B079 /* Vegan.json */; };
+		F1735A781CCE971800C5C6B9 /* govegan.png in Resources */ = {isa = PBXBuildFile; fileRef = F1735A771CCE971800C5C6B9 /* govegan.png */; };
 		F1B546461CCD5B6C000A19F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B546451CCD5B6C000A19F4 /* AppDelegate.swift */; };
-		F1B546481CCD5B6C000A19F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B546471CCD5B6C000A19F4 /* ViewController.swift */; };
+		F1B546481CCD5B6C000A19F4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B546471CCD5B6C000A19F4 /* MapViewController.swift */; };
 		F1B5464B1CCD5B6C000A19F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B546491CCD5B6C000A19F4 /* Main.storyboard */; };
 		F1B5464D1CCD5B6C000A19F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B5464C1CCD5B6C000A19F4 /* Assets.xcassets */; };
 		F1B546501CCD5B6C000A19F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B5464E1CCD5B6C000A19F4 /* LaunchScreen.storyboard */; };
+		F1B5465B1CCD5E8F000A19F4 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B5465A1CCD5E8F000A19F4 /* Artwork.swift */; };
+		F1B5465D1CCD6B14000A19F4 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B5465C1CCD6B14000A19F4 /* VCMapView.swift */; };
+		F1B5465F1CCD7F40000A19F4 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B5465E1CCD7F40000A19F4 /* JSON.swift */; };
+		F1C39CA21CD0FFE800205D76 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C39CA11CD0FFE800205D76 /* NewsTableViewCell.swift */; };
+		F1C39CA41CD0FFF300205D76 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C39CA31CD0FFF300205D76 /* NewsTableViewController.swift */; };
+		F1C8BFA71CCFE8BB00EFDEF0 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8BFA61CCFE8BA00EFDEF0 /* MenuController.swift */; };
+		F1C8BFAB1CCFF3CD00EFDEF0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C8BFAA1CCFF3CD00EFDEF0 /* SWRevealViewController.m */; };
+		F1CD515F1DF1DD84005FBF33 /* ufonts.com_freight-sans-bold-sc-opentype.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CD515E1DF1DD61005FBF33 /* ufonts.com_freight-sans-bold-sc-opentype.otf */; };
+		F1EEC1981DF19D2800C15437 /* sao paulo.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F1EEC1971DF19D2800C15437 /* sao paulo.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F14C862C1CCDD7AE0002B079 /* Vegan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Vegan.json; path = "Supporting Files/Vegan.json"; sourceTree = "<group>"; };
+		F1735A771CCE971800C5C6B9 /* govegan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = govegan.png; sourceTree = "<group>"; };
 		F1B546421CCD5B6C000A19F4 /* curitibaVegana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curitibaVegana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B546451CCD5B6C000A19F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1B546471CCD5B6C000A19F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1B546471CCD5B6C000A19F4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F1B5464A1CCD5B6C000A19F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1B5464C1CCD5B6C000A19F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1B5464F1CCD5B6C000A19F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1B546511CCD5B6C000A19F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B5465A1CCD5E8F000A19F4 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		F1B5465C1CCD6B14000A19F4 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		F1B5465E1CCD7F40000A19F4 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		F1C39CA11CD0FFE800205D76 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		F1C39CA31CD0FFF300205D76 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		F1C8BFA61CCFE8BA00EFDEF0 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		F1C8BFA81CCFF37100EFDEF0 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F1C8BFA91CCFF3CC00EFDEF0 /* curitibaVegana-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "curitibaVegana-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1C8BFAA1CCFF3CD00EFDEF0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F1CD515E1DF1DD61005FBF33 /* ufonts.com_freight-sans-bold-sc-opentype.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ufonts.com_freight-sans-bold-sc-opentype.otf"; sourceTree = "<group>"; };
+		F1EEC1971DF19D2800C15437 /* sao paulo.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "sao paulo.gpx"; path = "../sao paulo.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1735A761CCE970E00C5C6B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F1735A771CCE971800C5C6B9 /* govegan.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		F1B546391CCD5B6C000A19F4 = {
 			isa = PBXGroup;
 			children = (
 				F1B546441CCD5B6C000A19F4 /* curitibaVegana */,
+				F1CD515D1DF1DB85005FBF33 /* Resources */,
 				F1B546431CCD5B6C000A19F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +87,66 @@
 		F1B546441CCD5B6C000A19F4 /* curitibaVegana */ = {
 			isa = PBXGroup;
 			children = (
+				F1C8BFA51CCFE83D00EFDEF0 /* SideBarMenu */,
+				F1C8BFA41CCFE81900EFDEF0 /* Map */,
+				F1C8BFAC1CCFF40F00EFDEF0 /* News */,
 				F1B546451CCD5B6C000A19F4 /* AppDelegate.swift */,
-				F1B546471CCD5B6C000A19F4 /* ViewController.swift */,
+				F1C8BFA61CCFE8BA00EFDEF0 /* MenuController.swift */,
 				F1B546491CCD5B6C000A19F4 /* Main.storyboard */,
 				F1B5464C1CCD5B6C000A19F4 /* Assets.xcassets */,
 				F1B5464E1CCD5B6C000A19F4 /* LaunchScreen.storyboard */,
 				F1B546511CCD5B6C000A19F4 /* Info.plist */,
+				F1B546571CCD5D9C000A19F4 /* Supporting Files */,
 			);
 			path = curitibaVegana;
+			sourceTree = "<group>";
+		};
+		F1B546571CCD5D9C000A19F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1EEC1971DF19D2800C15437 /* sao paulo.gpx */,
+				F1735A761CCE970E00C5C6B9 /* Images */,
+				F14C862C1CCDD7AE0002B079 /* Vegan.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C8BFA41CCFE81900EFDEF0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F1B546471CCD5B6C000A19F4 /* MapViewController.swift */,
+				F1B5465A1CCD5E8F000A19F4 /* Artwork.swift */,
+				F1B5465C1CCD6B14000A19F4 /* VCMapView.swift */,
+				F1B5465E1CCD7F40000A19F4 /* JSON.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		F1C8BFA51CCFE83D00EFDEF0 /* SideBarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8BFA81CCFF37100EFDEF0 /* SWRevealViewController.h */,
+				F1C8BFAA1CCFF3CD00EFDEF0 /* SWRevealViewController.m */,
+				F1C8BFA91CCFF3CC00EFDEF0 /* curitibaVegana-Bridging-Header.h */,
+			);
+			name = SideBarMenu;
+			sourceTree = "<group>";
+		};
+		F1C8BFAC1CCFF40F00EFDEF0 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				F1C39CA31CD0FFF300205D76 /* NewsTableViewController.swift */,
+				F1C39CA11CD0FFE800205D76 /* NewsTableViewCell.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		F1CD515D1DF1DB85005FBF33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD515E1DF1DD61005FBF33 /* ufonts.com_freight-sans-bold-sc-opentype.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,12 +176,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = gorpalabs;
 				TargetAttributes = {
 					F1B546411CCD5B6C000A19F4 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = BB769DK9UP;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -123,8 +209,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CD515F1DF1DD84005FBF33 /* ufonts.com_freight-sans-bold-sc-opentype.otf in Resources */,
 				F1B546501CCD5B6C000A19F4 /* LaunchScreen.storyboard in Resources */,
+				F14C862D1CCDD7AE0002B079 /* Vegan.json in Resources */,
+				F1735A781CCE971800C5C6B9 /* govegan.png in Resources */,
 				F1B5464D1CCD5B6C000A19F4 /* Assets.xcassets in Resources */,
+				F1EEC1981DF19D2800C15437 /* sao paulo.gpx in Resources */,
 				F1B5464B1CCD5B6C000A19F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +226,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1B546481CCD5B6C000A19F4 /* ViewController.swift in Sources */,
+				F1C8BFAB1CCFF3CD00EFDEF0 /* SWRevealViewController.m in Sources */,
+				F1B5465D1CCD6B14000A19F4 /* VCMapView.swift in Sources */,
+				F1C39CA21CD0FFE800205D76 /* NewsTableViewCell.swift in Sources */,
+				F1B5465F1CCD7F40000A19F4 /* JSON.swift in Sources */,
+				F1B546481CCD5B6C000A19F4 /* MapViewController.swift in Sources */,
+				F1B5465B1CCD5E8F000A19F4 /* Artwork.swift in Sources */,
+				F1C8BFA71CCFE8BB00EFDEF0 /* MenuController.swift in Sources */,
 				F1B546461CCD5B6C000A19F4 /* AppDelegate.swift in Sources */,
+				F1C39CA41CD0FFF300205D76 /* NewsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +274,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -222,8 +321,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -242,6 +343,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -250,10 +352,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = curitibaVegana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gorpalabs.curitibaVegana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "curitibaVegana/curitibaVegana-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -261,10 +370,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = curitibaVegana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gorpalabs.curitibaVegana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "curitibaVegana/curitibaVegana-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -287,6 +402,7 @@
 				F1B546561CCD5B6C000A19F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
