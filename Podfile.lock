@@ -1,0 +1,12 @@
+PODS:
+  - CVCalendar (1.4.1)
+
+DEPENDENCIES:
+  - CVCalendar (~> 1.4.1)
+
+SPEC CHECKSUMS:
+  CVCalendar: 61912eb5dc39c3bcfe22a731147a559a696fbc15
+
+PODFILE CHECKSUM: eb7eace92c8731ba7e4a54fb65f98b619c757d26
+
+COCOAPODS: 1.0.1

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7C54DBC0054188D3683AB3C /* Pods_curitibaVegana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADB566E9508CFFE11728AD6 /* Pods_curitibaVegana.framework */; };
 		F14C862D1CCDD7AE0002B079 /* Vegan.json in Resources */ = {isa = PBXBuildFile; fileRef = F14C862C1CCDD7AE0002B079 /* Vegan.json */; };
+		F169F2BE1DF4BDE90068157D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F169F2BD1DF4BDE90068157D /* CalendarViewController.swift */; };
 		F1735A781CCE971800C5C6B9 /* govegan.png in Resources */ = {isa = PBXBuildFile; fileRef = F1735A771CCE971800C5C6B9 /* govegan.png */; };
 		F1B546461CCD5B6C000A19F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B546451CCD5B6C000A19F4 /* AppDelegate.swift */; };
 		F1B546481CCD5B6C000A19F4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B546471CCD5B6C000A19F4 /* MapViewController.swift */; };
@@ -26,7 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17CA11C2DAC82F2A83BB0D4A /* Pods-curitibaVegana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curitibaVegana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-curitibaVegana/Pods-curitibaVegana.debug.xcconfig"; sourceTree = "<group>"; };
+		8ADB566E9508CFFE11728AD6 /* Pods_curitibaVegana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_curitibaVegana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B3885F2696DE07B0D6DAC0 /* Pods-curitibaVegana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curitibaVegana.release.xcconfig"; path = "Pods/Target Support Files/Pods-curitibaVegana/Pods-curitibaVegana.release.xcconfig"; sourceTree = "<group>"; };
 		F14C862C1CCDD7AE0002B079 /* Vegan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Vegan.json; path = "Supporting Files/Vegan.json"; sourceTree = "<group>"; };
+		F169F2BD1DF4BDE90068157D /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		F1735A771CCE971800C5C6B9 /* govegan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = govegan.png; sourceTree = "<group>"; };
 		F1B546421CCD5B6C000A19F4 /* curitibaVegana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curitibaVegana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B546451CCD5B6C000A19F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,12 +59,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C54DBC0054188D3683AB3C /* Pods_curitibaVegana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272C7AAA62A81A1438A7C01C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ADB566E9508CFFE11728AD6 /* Pods_curitibaVegana.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36BF8F80831781F5E77ACFB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17CA11C2DAC82F2A83BB0D4A /* Pods-curitibaVegana.debug.xcconfig */,
+				B8B3885F2696DE07B0D6DAC0 /* Pods-curitibaVegana.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F169F2BC1DF4BC1D0068157D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				F169F2BD1DF4BDE90068157D /* CalendarViewController.swift */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
 		F1735A761CCE970E00C5C6B9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +105,8 @@
 				F1B546441CCD5B6C000A19F4 /* curitibaVegana */,
 				F1CD515D1DF1DB85005FBF33 /* Resources */,
 				F1B546431CCD5B6C000A19F4 /* Products */,
+				36BF8F80831781F5E77ACFB2 /* Pods */,
+				272C7AAA62A81A1438A7C01C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +121,7 @@
 		F1B546441CCD5B6C000A19F4 /* curitibaVegana */ = {
 			isa = PBXGroup;
 			children = (
+				F169F2BC1DF4BC1D0068157D /* Calendar */,
 				F1C8BFA51CCFE83D00EFDEF0 /* SideBarMenu */,
 				F1C8BFA41CCFE81900EFDEF0 /* Map */,
 				F1C8BFAC1CCFF40F00EFDEF0 /* News */,
@@ -156,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1B546541CCD5B6C000A19F4 /* Build configuration list for PBXNativeTarget "curitibaVegana" */;
 			buildPhases = (
+				3F67D2013A745D1AA0E3C916 /* [CP] Check Pods Manifest.lock */,
 				F1B5463E1CCD5B6C000A19F4 /* Sources */,
 				F1B5463F1CCD5B6C000A19F4 /* Frameworks */,
 				F1B546401CCD5B6C000A19F4 /* Resources */,
+				05FA56A6279176F31D5FBB20 /* [CP] Embed Pods Frameworks */,
+				780D43314C9C448EDAB0970E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,8 +219,9 @@
 				TargetAttributes = {
 					F1B546411CCD5B6C000A19F4 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = BB769DK9UP;
+						DevelopmentTeam = 59Q556BKMJ;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -221,11 +260,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05FA56A6279176F31D5FBB20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-curitibaVegana/Pods-curitibaVegana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F67D2013A745D1AA0E3C916 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		780D43314C9C448EDAB0970E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-curitibaVegana/Pods-curitibaVegana-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1B5463E1CCD5B6C000A19F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F169F2BE1DF4BDE90068157D /* CalendarViewController.swift in Sources */,
 				F1C8BFAB1CCFF3CD00EFDEF0 /* SWRevealViewController.m in Sources */,
 				F1B5465D1CCD6B14000A19F4 /* VCMapView.swift in Sources */,
 				F1C39CA21CD0FFE800205D76 /* NewsTableViewCell.swift in Sources */,
@@ -299,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -350,16 +438,19 @@
 		};
 		F1B546551CCD5B6C000A19F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CA11C2DAC82F2A83BB0D4A /* Pods-curitibaVegana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 59Q556BKMJ;
 				INFOPLIST_FILE = curitibaVegana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorpalabs.curitibaVegana;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorpalabs.curitibaVegan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "curitibaVegana/curitibaVegana-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -368,16 +459,19 @@
 		};
 		F1B546561CCD5B6C000A19F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B3885F2696DE07B0D6DAC0 /* Pods-curitibaVegana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 59Q556BKMJ;
 				INFOPLIST_FILE = curitibaVegana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gorpalabs.curitibaVegana;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorpalabs.curitibaVegan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "curitibaVegana/curitibaVegana-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
